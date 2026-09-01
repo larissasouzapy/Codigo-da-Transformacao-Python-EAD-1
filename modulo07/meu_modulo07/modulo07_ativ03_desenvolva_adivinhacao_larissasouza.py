@@ -3,6 +3,7 @@ import math
 
 
 def jogo_adivinhacao():
+    #
     limite_maximo = 24
 
     tentativas_maximas = math.ceil(math.log2(limite_maximo)) + 1
@@ -17,7 +18,7 @@ def jogo_adivinhacao():
         try:
              palpite = int(input(f"Tentativa{rodada} de {tentativas_maximas} - Digite seu palpite:"))
         except ValueError:
-             print("Por favor digite apenas numeros inteiro válidos!|n")
+             print("Por favor digite apenas numeros inteiro válidos!\n")
 
         if palpite < 1 or palpite > limite_maximo:
              print(f"Atenção: O número deve estar entre 1 e {limite_maximo}!\n")
