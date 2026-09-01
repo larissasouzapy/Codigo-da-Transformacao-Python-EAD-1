@@ -3,7 +3,7 @@ import math
 
 
 def jogo_adivinhacao():
-    #
+    
     limite_maximo = 24
 
     tentativas_maximas = math.ceil(math.log2(limite_maximo)) + 1
