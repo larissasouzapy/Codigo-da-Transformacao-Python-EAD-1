@@ -1,5 +1,5 @@
 print("Olá, Mundo! Estou testando o Python.")
-print(42)
+print(55)
 
 
 print("O tipo de 'Olá, Mundo' é:", type("Olá, Mundo"))  
