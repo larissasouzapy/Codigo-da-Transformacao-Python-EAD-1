@@ -42,7 +42,7 @@ while True:
     
     if validar_login(nome_usuario, senha_digitada):
         print(f"\n🎉 Login bem-sucedido! Bem-vindo(a), {nome_usuario}!")
-        break # O login deu certo, então saímos do loop.
+        break 
     else:
         print("\n❌ Login inválido. Tente novamente.")
 
